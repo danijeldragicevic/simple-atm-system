@@ -1,4 +1,4 @@
-package banking.exception;
+package atm.exception;
 
 public class NotEnoughMoneyException extends Throwable {
 }

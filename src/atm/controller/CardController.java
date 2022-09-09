@@ -1,12 +1,12 @@
-package banking.controller;
+package atm.controller;
 
-import banking.exception.CardNotExistsException;
-import banking.exception.NoTransferToSameAccountException;
-import banking.exception.NotEnoughMoneyException;
-import banking.exception.NotValidLuhnAlgorithmException;
-import banking.model.Card;
-import banking.service.CardService;
-import banking.utils.InputUtil;
+import atm.exception.CardNotExistsException;
+import atm.exception.NoTransferToSameAccountException;
+import atm.exception.NotEnoughMoneyException;
+import atm.exception.NotValidLuhnAlgorithmException;
+import atm.model.Card;
+import atm.service.CardService;
+import atm.utils.InputUtil;
 
 public class CardController {
     private static final int CREATE_ACCOUNT = 1;

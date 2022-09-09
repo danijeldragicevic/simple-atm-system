@@ -1,12 +1,12 @@
-package banking.service;
+package atm.service;
 
-import banking.exception.CardNotExistsException;
-import banking.exception.NoTransferToSameAccountException;
-import banking.exception.NotEnoughMoneyException;
-import banking.exception.NotValidLuhnAlgorithmException;
-import banking.model.Card;
-import banking.repository.CardRepository;
-import banking.utils.InputUtil;
+import atm.exception.CardNotExistsException;
+import atm.exception.NoTransferToSameAccountException;
+import atm.exception.NotEnoughMoneyException;
+import atm.exception.NotValidLuhnAlgorithmException;
+import atm.model.Card;
+import atm.repository.CardRepository;
+import atm.utils.InputUtil;
 
 import java.util.Objects;
 import java.util.Random;

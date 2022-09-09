@@ -1,4 +1,4 @@
-package banking.model;
+package atm.model;
 
 public class Card {
     private int id;

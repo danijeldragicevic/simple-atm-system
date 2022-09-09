@@ -1,4 +1,4 @@
-package banking.utils;
+package atm.utils;
 
 import java.util.Scanner;
 

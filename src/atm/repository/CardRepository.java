@@ -1,7 +1,7 @@
-package banking.repository;
+package atm.repository;
 
-import banking.model.Card;
-import banking.utils.DBUtils;
+import atm.model.Card;
+import atm.utils.DBUtils;
 
 import java.sql.*;
 

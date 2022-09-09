@@ -1,7 +1,7 @@
-package banking;
+package atm;
 
-import banking.controller.CardController;
-import banking.utils.DBUtils;
+import atm.controller.CardController;
+import atm.utils.DBUtils;
 
 import java.util.Objects;
 
